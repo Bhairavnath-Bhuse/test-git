@@ -1,0 +1,49 @@
+# Maven target directory
+/target/
+
+# Eclipse-specific files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA (in case someone uses it)
+*.iml
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output
+/build/
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Environment files
+.env
+
+# Local configuration
+application-local.yml
+application-local.properties
+
+# Test result files
+*.swp
+*.swo
+
+# Package distributions
+*.jar
+*.war
+*.ear
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# VS Code (optional if others use VS Code)
+/.vscode/
